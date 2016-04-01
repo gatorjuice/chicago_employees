@@ -37,5 +37,9 @@ module ChicagoEmployees
         .map { |employee| Employee.new(employee) }
       employees.max_by(3) { |employee| employee.salary }
     end
+
+    def test_method
+      
+    end
   end
 end
